@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>
+		博客测试页
+	</title>
+	<style type="text/css">
+	body{margin: 0px;
+		padding: 0px;
+		background-color:white;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+	}
+	menu{
+		padding:0px;
+		margin: 0px;
+		float: left;
+		background-color:hotpink;
+		display:block;
+		width: 100%;
+		position: fixed;
+		box-shadow: 0px 0px 10px black;
+
+	}
+	.menu_button{
+		margin: 0px;
+		padding: 0px;
+
+		text-align: center;
+
+		color: white;
+		font-size: 20px;
+		font-family: "Microsoft Yahei";
+		text-decoration:none;
+
+		background-color:hotpink;
+		display:inline-block;
+		width:100px;
+		line-height: 45px;
+
+
+	}
+	.menu_button:hover,.login:hover{
+		background-color:chartreuse;
+	}
+	.logo{
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		color: white;
+		font-size: 30px;
+		font-family: "Microsoft Yahei";
+		text-decoration:none;
+		background-color:hotpink;
+		display:inline-block;
+		width:100px;
+		height:40px;
+		line-height: 40px;
+	}
+	.login{
+		float: right;
+		margin: 0px;
+		padding: 0px;
+
+		text-align: center;
+
+		color: white;
+		font-size: 15px;
+		font-family: "Microsoft Yahei";
+		text-decoration:none;
+
+		background-color:hotpink;
+		display:inline-block;
+		width:100px;
+		line-height: 45px;
+	}
+	.normal_a{
+		color: black;
+		font-family: "Microsoft Yahei";
+		text-decoration: none;
+	}
+	.normal_a:hover{
+		color:#307fc1;
+	}
+
+
+	.main{
+		width: 1000px;
+		margin: 0 auto;
+		background-color:white;
+		box-shadow:0px 0px 10px black;
+		display: block;
+
+	}
+
+	
+	.advertise{
+		float: left;
+		margin: 100px 16.6px;
+		width: 300px;
+		height:168px;
+		background-color: white;
+	}
+	article{
+	height:200px;
+	width: 100%;
+	}
+	article:hover{
+		background-color: #d7dfd4;
+	}
+	
+	.article_img{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 100%;
+	margin:0 0 0 50px;
+	
+	}
+	.article_img img{
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+		margin: 25%;
+		
+	}
+
+		
+	.article_text{
+		float: right;
+		margin:0 17px 0 0;
+
+		display: inline-block;
+		width: 733px;
+		height: 100%;
+		
+		font-family: "Microsoft Yahei";
+		
+		
+
+	}
+	.article_text h1,.article_text p{
+		font-family: "Microsoft Yahei";
+	}
+	.article_text p{
+		font-size: 20px;
+		text-indent: 2em;
+	}
+
+	.guide_logo{
+		display: block;
+		margin-left:50px;
+		
+		color: black;
+		font-weight: bold;
+		font-family: "Microsoft Yahei";
+		font-size: 36px;
+		text-decoration: none;
+
+	}
+	.guide_logo:hover{
+		color:#307fc1;
+	}
+	
+
+	</style>
+</head>
+<body background="background1.jpg">
+<menu>
+<p class="logo">Hello</p>
+<a class="menu_button" href="..">首页</a>
+<a class="menu_button" href="#">返回顶部</a>
+<a class="menu_button" href="#">说说</a>
+<a class="menu_button" href="#">联系方式</a>
+<a class="menu_button" href="#">友情链接</a>
+<a href="#log-in" class="login">登录</a>
+<a href="#log-in" class="login">注册</a>
+</menu>
+<div class="main">
+	<div class="advertise"><a href=".."><img src="advertise1.jpg" width="300" height="168" ></a></div><div class="advertise">该页面只是测试</div><div class="advertise">点击左边那幅图进入董昊的博客</div>
+
+	<a href="#" class="guide_logo">近期文章</a>
+	<article>
+	
+	<div class="article_img">
+	
+	
+	<img src="profile.jpg">
+	
+
+	</div>
+	<div class="article_text">
+	<h1><a href="#" class="normal_a">Hello World！</a></h1>
+	<p>
+
+		Hello World！！<br/>
+		拿到了腾讯云的学生优惠资格，便搭建了一个个人博客。<br/>
+		服务器的搭建要多谢这篇文章。<br/>
+		http://blog.csdn.net/keneuro/article/details/48575533<br/>
+
+	</p>
+	</div>
+	
+	
+	</article>
+
+	<br/><br/>
+	<a href="#" class="guide_logo">说说</a>
+	<article>
+		<div class="article_text">
+		<p>这里什么也没弄，以后再说<br/></p>
+		</div>
+	</article>
+	<br/><br/>
+	<a href="#" class="guide_logo" name="log-in">登录</a>
+	<article>
+		<div class="article_text">
+			<form action="">
+				User name:<br>
+				<input type="text" name="userid"><input type="submit" value="注册">
+				<br>
+				User password:<br>
+				<input type="password" name="psw"><input type="submit" value="登录">
+			</form>
+		</div>
+		
+	</article>
+	
+	
+	
+	
+
+</div>
+</body>
+</html>
